@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/titlebar"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:layout_width="fill_parent" android:layout_height="40dip">
+   <!-- <ImageView android:layout_height="28px" android:layout_width="28px" 
+		android:src="@drawable/logo"></ImageView> -->
+	<TextView android:id="@+id/subtitle" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="16dp"
+		android:textColor="#eee" android:text="@string/app_name"
+		android:layout_marginLeft="8px" android:layout_weight="1"></TextView>
+	<ProgressBar android:id="@+id/progress1" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp"></ProgressBar>
+ </LinearLayout>

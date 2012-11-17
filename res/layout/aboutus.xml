@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@color/lightgray" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include layout="@layout/titlebar" />
+	</LinearLayout>
+	<RelativeLayout android:id="@+id/login_div"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="15dip" android:layout_margin="10dip"
+		android:background="@drawable/corners_bg">
+
+		<LinearLayout android:id="@+id/content"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_alignParentTop="true"
+			android:layout_marginTop="5dp">
+			<ImageView android:layout_width="wrap_content" android:src="@drawable/icon"
+				android:layout_height="wrap_content" android:id="@+id/imageView1"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true" android:layout_gravity="center_horizontal" android:layout_margin="10dp"></ImageView>
+			<TextView android:id="@+id/login_user_input"
+				android:layout_height="wrap_content" android:text="@string/aboutuscontent"
+				android:layout_width="match_parent" />
+		</LinearLayout>
+
+	</RelativeLayout>
+<RelativeLayout android:id="@+id/login_div2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="15dip" android:layout_margin="10dip"
+		android:background="@drawable/corners_bg">
+
+		<LinearLayout android:id="@+id/content"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_alignParentTop="true"
+			android:layout_marginTop="5dp">
+			<TextView android:id="@+id/login_user_input"
+				android:layout_height="wrap_content" android:text="@string/aboutus_team"
+				android:layout_width="match_parent" />
+		</LinearLayout>
+
+	</RelativeLayout>
+
+
+
+</LinearLayout>

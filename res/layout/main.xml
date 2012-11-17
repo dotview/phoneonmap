@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include layout="@layout/titlebar" />
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:autonavi="http://schemas.android.com/apk/res/com.AMap"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<com.amap.mapapi.map.MapView
+			android:layout_width="fill_parent" android:clickable="true"
+			android:id="@+id/mapView" android:layout_height="match_parent" />
+	</LinearLayout>
+</LinearLayout>

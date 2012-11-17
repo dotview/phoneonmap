@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">通讯录地图</string>
+    <string name="aboutuscontent">
+		通讯录地图是一款简单的地图应用，它将通讯录中的信息根据电话归属地展示在高德地图上。
+		
+ 
+</string>
+	<string name="aboutus_team">
+		作者：卢敏
+		\nEmail: lexinquan@gmail.com
+		 
+</string>
+</resources>
